@@ -1,39 +1,75 @@
 * {
-    /* Свойства для сброса начальных стилей элементов */
+    padding: 0px; 
+    margin: 0px;
+    box-sizing: border-box;  /* Свойства для сброса начальных стилей элементов */
 }
 
 body {}
 
 header {
-    /* Стили для хедера */
+    height: 70px;
+    background-color: #2965f1;
+    padding: 23px 0px;/* Стили для хедера */
 }
 
 header span {
-    /* Стили для текста в хедере IT-INCUBATOR */
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;/* Стили для текста в хедере IT-INCUBATOR */
 }
 
 .main-section {
+    font-family: var(--font-family);
+    background-color:#FAFAFF;
     /* Стили для первой секции */
 }
 
 .main-title {
-    /* Стили для заголовка в первой секции */
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    padding: 60px 0px 32px;/* Стили для заголовка в первой секции */
 }
 
 .main-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
     /* Стили для текста в первой секции */
 }
 
 .main-image {
-    /* Стили для изображения в первой секции */
+    width: 715px;
+    height: 508px;
+  /* Стили для изображения в первой секции */
 }
 
 
 .about-section {
+    font-family: "Inter", sans-serif;
+    padding: 100px 0px;
+    
+    }
     /* Стили для второй секции */
-}
+
 
 select {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    padding: 9px 87px 8px 12px;
+
+/*ширина текста, стрелочка !!!!!!!!*/
+
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 30px;
+    border-radius: 5px;
+    width: 150px;
+    height: 36px;
+
     /* Стили для выпадающего списка */
 }
 
