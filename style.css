@@ -138,36 +138,44 @@ select {
   border: 1px solid rgba(48, 48, 48, 0.3);
   width: 1440px;
   height: 0px;
+  border-collapse: collapse;
   /* Стили для линии */
 }
 
 table {
+  table-layout: fixed;
   width: 300px;
-  height: 196px; 
+  height: 196px;
+  border-collapse: collapse;
+  border: 1px solid #95a1bb;
+
   /* Стили для таблицы */
 }
 
-th { font-family: var(--font-family);
-font-weight: 700;
-font-size: 14px;
-text-align: center;
-color: #303030;
-padding: 12px 14px 11px 14px ;
+th {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: #303030;
+  height: 40px;
 }
 td {
-
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 14px;
-color: #303030;
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+  color: #303030;
+  padding-left: 15px;
+  height: 40px;
   /* Стили для ячеек таблицы */
 }
 
 footer {
   width: 1440px;
   height: 70px;
-  background-color: rgba(163, 167, 255, 0.3); 
-  padding: 26px 0px 27px 1px;/* Стили для футера */
+  background-color: rgba(163, 167, 255, 0.3);
+  padding: 26px 0px 27px 1px; /* Стили для футера */
 }
 
 .footer-link {
