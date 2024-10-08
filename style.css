@@ -67,7 +67,7 @@ header span {
 
 .about-section {
   background-color: #fff;
-  padding-top: 100px 0px;
+  padding: 100px 0px;
 }
 /* Стили для второй секции */
 
@@ -142,7 +142,7 @@ select {
 .line {
   border: 1px solid rgba(48, 48, 48, 0.3);
   height: 0px;
-  margin-bottom: 60px 0px;
+  margin: 60px 0px;
   /* Стили для линии */
 }
 
